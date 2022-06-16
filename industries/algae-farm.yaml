@@ -1,0 +1,43 @@
+available: true
+callbacks: ''
+cargoAcceptance: []
+cargoProduction:
+- ALGE
+colour: 1
+fundCostMultiplier: 50
+id: 0
+layout:
+- - - 0
+name: Algae Farm
+placement: anywhere
+probabilityInGame: 10
+probabilityMapGen: 10
+prospectChance: 100
+tiles:
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/algae-farm/2.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/algae-farm/1.png
+      left: -31
+      top: -32
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/algae-farm/3.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      id: 0
+      left: -31
+      top: 0
+type: primary
