@@ -1,4 +1,7 @@
 description: A new TrueGRF project
-license: CC0-1.0
+grfid: f157a49c
+license: CC-BY-NC-ND-4.0
+name: testing-industry-tile
 type: industry
+url: https://github.com/N-Moe/testing-industry-tile
 version: 6
