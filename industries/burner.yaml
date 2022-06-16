@@ -1,0 +1,28 @@
+available: true
+callbacks: ''
+cargoAcceptance:
+- ALGE
+cargoProduction: []
+colour: 1
+fundCostMultiplier: 100
+id: 1
+layout:
+- - - 0
+name: Burner
+placement: anywhere
+probabilityInGame: 10
+probabilityMapGen: 10
+prospectChance: 0
+tiles:
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/burner/1.png
+      left: -34
+      top: -28
+type: secondary
