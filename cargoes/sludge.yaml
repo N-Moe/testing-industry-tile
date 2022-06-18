@@ -1,17 +1,17 @@
-abbreviation: AL
+abbreviation: SG
 available: true
-classes: 160
+classes: 320
 colour: 206
 id: 0
-label: ALGE
-longName: algae
-name: Algae
+label: SLDG
+longName: sludge
+name: Sludge
 penaltyLength: 40
 penaltyLowerBound: 40
 price: 16448
 sprite:
-  filename: cargoes/algae.png
+  filename: cargoes/sludge.png
   left: 0
   top: 0
-unitName: Tonnes
+unitName: Litres
 weight: 16
