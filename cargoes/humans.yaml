@@ -1,16 +1,16 @@
-abbreviation: PS
+abbreviation: HN
 available: true
 classes: 1
-colour: 52
+colour: 7
 id: 1
-label: PASS
-longName: passengers
-name: Passengers
+label: HUMN
+longName: humans
+name: Humans
 penaltyLength: 255
 penaltyLowerBound: 0
 price: 4112
 sprite:
-  filename: cargoes/passengers.png
+  filename: cargoes/humans.png
   left: 0
   top: 0
 unitName: Passengers
