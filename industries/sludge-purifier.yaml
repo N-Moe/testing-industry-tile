@@ -118,7 +118,7 @@ layout:
     - -1
   - - 0
     - 3
-    - -1
+    - 4
 - - - 2
     - 1
     - 0
@@ -187,4 +187,15 @@ tiles:
       filename: industries/sludge-purifier/6.png
       left: -31
       top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/sludge-purifier/8.png
+      left: -31
+      top: -37
 type: secondary
