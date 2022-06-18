@@ -42,7 +42,7 @@ callbacks: |
 
   supply_requirement 8 =
 
-  prod_cargo_types ctt:O2__ [] 14 =
+  prod_cargo_types ctt:ALGE [] 14 =
 
 
   /*
@@ -149,7 +149,22 @@ colour: 1
 fundCostMultiplier: 50
 id: 0
 layout:
-- - - 0
+- - - 1
+    - 1
+    - 1
+    - 1
+  - - 1
+    - 1
+    - 1
+    - 1
+  - - 1
+    - 1
+    - 1
+    - 1
+  - - 1
+    - 1
+    - 1
+    - 1
 name: Algae Farm
 placement: anywhere
 probabilityInGame: 10
@@ -179,7 +194,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      id: 0
-      left: -31
-      top: 0
+      filename: industries/algae-farm/4.png
+      left: -32
+      top: -45
 type: primary

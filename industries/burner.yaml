@@ -1,4 +1,4 @@
-available: true
+available: false
 callbacks: |
   const type{
       accept_cargo_types cargodict
@@ -48,7 +48,7 @@ colour: 1
 fundCostMultiplier: 100
 id: 1
 layout:
-- - - 0
+- - - 1
 name: Burner
 placement: anywhere
 probabilityInGame: 10
@@ -59,11 +59,26 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 3924
+      filename: industries/burner/1.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
       filename: industries/burner/1.png
       left: -34
       top: -28
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/burner/3.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/burner/2.png
+      left: -31
+      top: 0
 type: secondary
