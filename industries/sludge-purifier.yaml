@@ -104,21 +104,15 @@ colour: 1
 fundCostMultiplier: 50
 id: 0
 layout:
-- - - 1
+- - - 4
+    - 5
+    - 5
+  - - 2
+    - 1
+    - 1
+  - - 2
+    - 1
     - 2
-    - 1
-  - - 2
-    - 1
-    - 1
-  - - -1
-    - -1
-    - -1
-  - - 2
-    - 0
-    - -1
-  - - 0
-    - 3
-    - 4
 - - - 2
     - 1
     - 0
@@ -197,5 +191,16 @@ tiles:
     sprite:
       filename: industries/sludge-purifier/8.png
       left: -31
-      top: -37
+      top: -47
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/sludge-purifier/9.png
+      left: -31
+      top: -47
 type: secondary
