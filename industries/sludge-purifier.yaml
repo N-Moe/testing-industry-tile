@@ -106,16 +106,20 @@ id: 0
 layout:
 - - - 6
     - 6
-    - 0
+    - 3
+    - 7
   - - 4
-    - 3
-    - 3
-  - - 3
+    - 1
     - 3
     - 3
   - - 1
+    - 4
+    - 3
+    - 5
+  - - 1
     - 1
-    - 1
+    - 3
+    - 0
 - - - 2
     - 1
     - 0
@@ -145,8 +149,8 @@ tiles:
     drawType: recolour
     sprite:
       filename: industries/sludge-purifier/1.png
-      left: -30
-      top: -48
+      left: -32
+      top: -46
 - sprites:
   - alwaysDraw: true
     drawType: recolour
@@ -193,8 +197,8 @@ tiles:
     drawType: recolour
     sprite:
       filename: industries/sludge-purifier/8.png
-      left: -31
-      top: -51
+      left: -32
+      top: -45
 - sprites:
   - alwaysDraw: true
     drawType: recolour
@@ -217,4 +221,15 @@ tiles:
       filename: industries/sludge-purifier/10.png
       left: -31
       top: -176
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/sludge-purifier/11.png
+      left: -31
+      top: 0
 type: secondary
